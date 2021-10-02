@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+.header{   
+    background-color: black;
+}
+h1{
+    margin: 0px;
+    
+}
+.titleone{
+    color: blanchedalmond;
+    text-align: center;
+}
+.box{
+    background-color: #f3efef;
+    margin: 0%;
+    margin-bottom: 50%;
+}
+
+.titleabaixo{
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+
+
+div#res {
+    margin: 22px 10px 22px;
+}
+.res{
+    border: 0.1px solid black;
+}
+.title{
+    background-color: darkslategray;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.losang {
+    padding: 0;
+    background-color: #f3efef;
+    border: 1px solid black;
+}
+.boxone {
+    padding: 20px;
+}
+
+input#txtvel {
+    border-radius: 8px;
+    width: 50px;
+    border: 1px solid;
+}
+
+
