@@ -18,9 +18,16 @@
     <div class="container">
         <div class="row">
           <div class="col-9">.col-9</div>
-          <div class="losang col-6" >
-              <div>
-                <h2 class="title"> Sistema de Parecer </h2></div>
+          <div class="losangmaior1 col-6" >
+              <div class="row boxmedia">
+                <div class="losang col-6" >
+                <h2 class="title"> Sistema de Parecer </h2>
+                </div>
+                <div class="losang btnend col-6" >
+                <button type="button" class="btn btn-outline-info btnmedia">Calculo média</button>
+                </div>
+              </div>
+
                 <div class="boxone">
                     Nota  do aluno(a) 
                     <input type="number" name="txtvel" id="txtvel">
@@ -38,14 +45,39 @@
                      </div>
                 </div>
          </div>
+                   <div class="losangmaior2 col-6" >
+              <div class="row boxmedia">
+                <div class="losang col-6" >
+                <h2 class="title"> Calculo de média </h2>
+                </div>
+                <div class="losang btnend col-6" >
+                <button type="button" class="btn btn-outline-info btnmedia">Parecer Aluno</button>
+                </div>
+              </div>
+
+                <div class="boxone">
+                    Nota1 
+                    <input class="notamedia" type="number" name="nota1" id="nota1">
+                    Nota2
+                    <input  class="notamedia"type="number" name="nota2" id="nota2">
+                    trabalho
+                    <input class="notamedia" type="number" name="nota3" id="nota3">
+                    <input type="button" value="Calcular" onclick="somar()"><br>
+                    
+                </div>
+                <div>
+                    <p class="titleabaixo">Seu parecer estara abaixo:</p>
+                    <div  id="res" class="res">
+                    <div  class="boxclear"></div>
+                    <div class="box"></div>
+                     </div>
+                </div>
+         </div>
           <div class="col-1">
 
           </div>
           <div class="col-3">
-            <img src="..." class="img-thumbnail" alt="..."><br>
-            <img src="..." class="img-thumbnail" alt="..."><br>
-            <img src="..." class="img-thumbnail" alt="..."><br>
-            <img src="..." class="img-thumbnail" alt="...">
+          
           
           </div>
       </div>

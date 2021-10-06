@@ -32,16 +32,27 @@ div#res {
     border: 0.1px solid black;
 }
 .title{
-    background-color: darkslategray;
     margin: 0;
     text-align: center;
-    color: #fff;
+    color: #0f0f0f;
+    font-size: 25px;
 }
-
-.losang {
-    padding: 0;
+.losangmaior1{
     background-color: #f3efef;
     border: 1px solid black;
+    
+}
+.losangmaior2{
+    background-color: #f3efef;
+    border: 1px solid black;
+    display: none;
+}
+.losang {
+    background-color: #f3efef;
+    border-bottom: 1px solid black;
+}
+.btnend{
+text-align: end;
 }
 .boxone {
     padding: 20px;
@@ -52,5 +63,15 @@ input#txtvel {
     width: 50px;
     border: 1px solid;
 }
+.btnmedia{
+    padding: 0;
+}
 
+.boxmedia{
+    padding: 1px;
+}
 
+.notamedia {
+    width: 10%;
+    margin-right: 10px;
+}
